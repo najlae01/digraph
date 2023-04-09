@@ -20,9 +20,6 @@ std::string value(T u) {
 template <class T>
 class Digraph {
     /*** Public Interface ***/
-    /**** You are not allowed to modify the public interface of this class *****/
-    /**** Therefore, you are not allowed to add public functions or modify ******/
-    /**** the signatures of public functions **********************************/
 public:
     Digraph();
     ~Digraph();
