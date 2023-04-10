@@ -30,11 +30,13 @@ public:
      * If the vertex is already in the graph, this function does nothing (it does not overwrite the value associated with the key).
      */
     void insert_vertex(T u);
+
     void insert_edge(T u, T v);
     /*
      * Deletes a vertex and all the adjacent edges to this vertex.
      */
     void remove_vertex(T u);
+
     void remove_edge(T u, T v);
 
     /*** Functions for graph characteristics ***/
